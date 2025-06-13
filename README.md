@@ -7,7 +7,7 @@ A tiny **copy-&-paste** Vue directive to **disable Ionic Vue 8’s iOS-style edg
 ## Why?
 
 - Ionic Vue 8 no longer exposes a public API to disable the edge-swipe gesture.
-- This directive intercepts the first 20 px from the left edge **before** Ionic’s internal handlers via capture-phase listeners.
+- This directive intercepts the first 50 px from the left edge **before** Ionic’s internal handlers via capture-phase listeners.
 - No NPM install—just copy, paste, and register.
 
 ---
