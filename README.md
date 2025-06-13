@@ -92,7 +92,7 @@ Annotate any `<ion-page>` to block swipe-back:
 ## How It Works
 
 1. **Capture-phase listeners** on `window` for `pointerdown` and `touchstart`.
-2. If the event’s X coordinate ≤ 20 px, call `stopImmediatePropagation()` + `preventDefault()`.
+2. If the event’s X coordinate ≤ 50 px, call `stopImmediatePropagation()` + `preventDefault()`.
 3. Ionic’s internal swipe-back gesture never fires.
 
 ---
